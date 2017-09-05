@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		950DAEB91F35D35F001F878E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DAEB81F35D35F001F878E /* AppDelegate.swift */; };
-		950DAEBB1F35D35F001F878E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DAEBA1F35D35F001F878E /* ViewController.swift */; };
+		950DAEBB1F35D35F001F878E /* FlightInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950DAEBA1F35D35F001F878E /* FlightInfoViewController.swift */; };
 		950DAEBE1F35D35F001F878E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950DAEBC1F35D35F001F878E /* Main.storyboard */; };
 		950DAEC01F35D35F001F878E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950DAEBF1F35D35F001F878E /* Assets.xcassets */; };
 		950DAEC31F35D35F001F878E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950DAEC11F35D35F001F878E /* LaunchScreen.storyboard */; };
+		9519E6321F3729A800EA64E5 /* FlightCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9519E6311F3729A800EA64E5 /* FlightCardView.swift */; };
+		95CB8B731F372C340009EA25 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB8B721F372C340009EA25 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		950DAEB51F35D35F001F878E /* FlightInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		950DAEB81F35D35F001F878E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		950DAEBA1F35D35F001F878E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		950DAEBA1F35D35F001F878E /* FlightInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoViewController.swift; sourceTree = "<group>"; };
 		950DAEBD1F35D35F001F878E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		950DAEBF1F35D35F001F878E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		950DAEC21F35D35F001F878E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		950DAEC41F35D35F001F878E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9519E6311F3729A800EA64E5 /* FlightCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightCardView.swift; sourceTree = "<group>"; };
+		95CB8B721F372C340009EA25 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 		950DAEB71F35D35F001F878E /* FlightInfo */ = {
 			isa = PBXGroup;
 			children = (
-				950DAEB81F35D35F001F878E /* AppDelegate.swift */,
-				950DAEBA1F35D35F001F878E /* ViewController.swift */,
 				950DAEBC1F35D35F001F878E /* Main.storyboard */,
 				950DAEBF1F35D35F001F878E /* Assets.xcassets */,
 				950DAEC11F35D35F001F878E /* LaunchScreen.storyboard */,
+				950DAEB81F35D35F001F878E /* AppDelegate.swift */,
+				950DAEBA1F35D35F001F878E /* FlightInfoViewController.swift */,
+				9519E6311F3729A800EA64E5 /* FlightCardView.swift */,
+				95CB8B721F372C340009EA25 /* Model.swift */,
 				950DAEC41F35D35F001F878E /* Info.plist */,
 			);
 			path = FlightInfo;
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950DAEBB1F35D35F001F878E /* ViewController.swift in Sources */,
+				950DAEBB1F35D35F001F878E /* FlightInfoViewController.swift in Sources */,
+				9519E6321F3729A800EA64E5 /* FlightCardView.swift in Sources */,
 				950DAEB91F35D35F001F878E /* AppDelegate.swift in Sources */,
+				95CB8B731F372C340009EA25 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				950DAEC91F35D35F001F878E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
